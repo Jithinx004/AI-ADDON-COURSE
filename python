@@ -1,0 +1,179 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPhk01Lm8IcY5pE2q7KZhh3",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Jithinx004/AI-ADDON-COURSE/blob/main/python\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "id": "R5sSVg792M4a"
+      },
+      "outputs": [],
+      "source": [
+        "# prompt: add two numbers and find its sum\n",
+        "\n",
+        "def add_two_numbers(a, b):\n",
+        "  \"\"\"\n",
+        "  This function adds two numbers and returns their sum.\n",
+        "\n",
+        "  Args:\n",
+        "    a: The first number.\n",
+        "    b: The second number.\n",
+        "\n",
+        "  Returns:\n",
+        "    The sum of the two numbers.\n",
+        "  \"\"\"\n",
+        "\n",
+        "  return a + b\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=8\n",
+        "b=9\n",
+        "print(a+b)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "9phDQoye3AyQ",
+        "outputId": "c15dd931-78f5-4713-b63c-71333766a6db"
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "17\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=int(input(\"Enter value a:\"))\n",
+        "b=int(input(\"Enter value b:\"))\n",
+        "print(a+b)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "U2xRa0hJ3k_f",
+        "outputId": "16125103-1bc9-41bd-88eb-3f6a1a068a9b"
+      },
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter value a:8\n",
+            "Enter value b:9\n",
+            "17\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=int(input(\"enter the first number:\" ))\n",
+        "b=int(input(\"enter the second number:\" ))\n",
+        "if a<b:\n",
+        "    print(\"first number is less than second\")\n",
+        "elif a > b:\n",
+        "    print(\"first number is greater than second\")\n",
+        "else:\n",
+        "    print(f\"first number is equal to second\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "s9vE7-bT6EPO",
+        "outputId": "18d1d68a-e5d9-4600-fdc1-b9de6fe8d9aa"
+      },
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter the first number:6\n",
+            "enter the second number:10\n",
+            "first number is less than second\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "number =int(input())\n",
+        "print (\"Multiplication table for\", number, \":\")\n",
+        "while i<11:\n",
+        "    result = number * i\n",
+        "    print(f\"{number}x{i}={result}\")\n",
+        "    i=i+1"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Q-O5VGqg9gO_",
+        "outputId": "034f5d87-d5b0-4307-aaee-dc33af264321"
+      },
+      "execution_count": 8,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "5\n",
+            "Multiplication table for 5 :\n",
+            "5x10=50\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "_KsnwtVbBcZg"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
